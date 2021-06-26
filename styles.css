@@ -1,0 +1,36 @@
+.Click {
+    margin: 50px;
+}
+
+.butt {
+    text-align: center;
+    margin-top: 150px;
+}
+
+body {
+    animation: gradient 20s ease infinite;
+    background: linear-gradient(-45deg, rgb(67, 67, 182), rgb(59, 59, 59), white, rgb(59, 59, 59));
+    background-size: 400%;
+}
+
+.game {
+    text-align: center;
+}
+
+.foresul {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 87px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 150%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
